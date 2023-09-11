@@ -1,0 +1,14 @@
+td, th, tr{
+    border: 1px solid black;
+}
+table{
+  margin: auto;
+  width: 1000px;
+  
+  text-align: center;
+}
+td:hover{
+    background-color: rgb(29, 63, 29);
+    color: white;
+    transition-duration: 0.3s;
+}

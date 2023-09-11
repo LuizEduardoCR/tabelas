@@ -1,0 +1,14 @@
+td, th, tr{
+    border: 2px solid black;
+}
+table{
+  margin: auto;
+  width: 500px;
+  border-collapse:collapse ;
+}
+
+td:hover{
+    background-color: red;
+    color: grey;
+    transition-duration: 0.5s;
+}
